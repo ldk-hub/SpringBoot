@@ -1,0 +1,31 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.10.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+//실행할 main클래스의 이름을 전달 함.
+mainClassName = System.getProperty("mainClass")
+group = 'com.com'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	//스프링 컨텍스트 모듈버전4버전대를 사용하며 그레이들은 이 모듈과 그의존 모듈은 모두 다운로드 한다.
+	compile('org.springframework:spring-context:4.0.6.RELEASE')
+}
