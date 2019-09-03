@@ -1,5 +1,5 @@
-SpringBoot TestCoding Project
-
+### SpringBoot TestCoding Project
+```
 스터디 커리큘럼
 1.스프링 프레임워크를 효율적으로 사용하는방법
 2.JDBC와 NoSQL 데이터베이스를 통해 퍼시스턴스를 추가
@@ -14,5 +14,6 @@ SpringBoot TestCoding Project
 
 
 웹 구성 커리큘럼
-1.반응형 Web기반 차트 대시보드 (코인거래소 및 주식거래소 모티브)
+1.반응형 Web기반 차트 대시보드
 2.사용환경 SpringBoot, Oracle 11g, bootstrap, google chart API, JDK1.8, gradle(STS), GIT, Jenkins, Jackson등
+```
